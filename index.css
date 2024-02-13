@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Merriweather', serif;
+  }
+  #container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+  }
+  .logo {
+    width: 130px;
+  }
+  .list-items {
+    display: inline;
+    list-style: none;
+    margin: 0px 20px;
+  }
+  .links {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+  } 
+  .links:hover {
+    color: rgb(237, 120, 120);
+  }
+  .home-contents {
+    margin: 13% 0px 0px 8%;
+  }
+  #username {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  #lname {
+    color: orange;
+    font-size: 50px;
+  }
+  #user-details {
+    line-height: 1.5;
+  }
+  #download {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+    display: inline-block;
+  }
+  .home-images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+  }
+
+  .group1{
+    height: 53%;
+    position: absolute;
+    bottom: 262px;
+    left: 67%;
+    transform: translateX(-50%);
+    transition: bottom 2s, left 1s;
+
+  }
+
+  .group1:hover #yelow{
+    bottom: 70px;
+  }
+  .group1:hover #person{
+    left: 40%
+  }
+  #about{
+    margin: 15% 8% 0px 8%;
+  }
+  .section-head{
+    text-align: center;
+  }
+  .mainhead{
+
+    font-size: 30px;
+
+  }
+.subhead{
+    color: green;
+}
+.about-body{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+.about-img>img{
+    width: 90%;
+}
+.about-contents{
+    font-size: 18px;
+    text-align: justify;
+}
+.information{
+    margin-top: 1rem;
+}
+.info-box{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.info-box>span{
+    margin-left: 1rem;
+}
